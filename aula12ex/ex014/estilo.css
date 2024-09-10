@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(116, 159, 224);
+    font: normal 12pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.488);
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+body > section > div > img {
+    max-width: 300px;
+}
+
+body > section > div > img#imagem2 {
+    aspect-ratio: 1 / 1;
+    border-radius: 150px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
